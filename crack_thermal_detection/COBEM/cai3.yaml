@@ -1,0 +1,12 @@
+# fissuras.yaml
+path: C:/Users/Leticia/Desktop/PICI/dataset  # caminho relativo para a pasta dataset
+train: Train/images    # caminho relativo para imagens de treino
+val: Validation/images # caminho relativo para imagens de validação
+
+# Classes (ajuste conforme suas categorias)
+names:
+  0: Faulty   # Pás com fissuras
+  1: Healthy  # Pás sem fissuras
+
+# Número de classes
+nc: 2
